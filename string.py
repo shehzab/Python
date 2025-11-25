@@ -51,5 +51,19 @@ name = "Balaraman"
 hobby = " koode nadann kuthikal vettal"
 
 formatted_string = f"I'm {name} , My hobby is {hobby}"
-print(formatted_string)
+# print(formatted_string)
 
+## str.capitalize() and str.title()
+phrase= "Antha bhayam irukkanam"
+
+cap_phrase = phrase.capitalize()
+title_phrase = phrase.title()
+# print(cap_phrase)
+# print(title_phrase)
+
+# str.replace(old , new)
+
+sentence = " I love Fishcurry"
+new = sentence.replace("Fishcurry", "Beef Mandhi")
+
+# print(new )
