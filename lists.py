@@ -6,3 +6,4 @@ print(len(numbers))
 
 mix = [1, "hello" , 3.12 ]
 print(mix[1])
+  
