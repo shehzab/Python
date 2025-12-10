@@ -67,3 +67,23 @@ sentence = " I love Fishcurry"
 new = sentence.replace("Fishcurry", "Beef Mandhi")
 
 # print(new )
+
+# lists unpacking
+
+number_god = [1,2,3,4]
+
+one, two, three, four = number_god
+
+print(number_god)
+
+friends = ["ramanan","chaandi","sojan"]
+
+ramanan, chaandi, sojan = friends
+print(ramanan)
+
+list_my = [1,2,3,4,5]
+
+first, second, *rest = list_my
+print(first)
+print(second)
+print(rest)

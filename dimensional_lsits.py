@@ -8,10 +8,10 @@ one = [1,2,3,4]
 
 matrix = [
   [1,2,3,4,5],
-  [6,7,8,9,0]
+  [6,7,8,9,0],
 ]
 
-print(matrix[0][3])
+# print(matrix[0][1])
 
 
 # 3D
@@ -29,4 +29,4 @@ cube = [
   
 ]
 
-# print(cube)
+# print(cube[1][0][2])

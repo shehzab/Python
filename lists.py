@@ -32,18 +32,21 @@ one = [1,2,3,4,5,6,7,8,9,0]
 
 one[2] = 12
 
-print(one)
+#print(one)
 
 #removing using del
 
 two = [1,2,3,4,5]
 
 del two[1] 
-print(two)
+#print(two)
 
 
 #removing using remove()
 
 five = [1,2,3,4]
 five.remove(3)
-print(five)
+# print(five)
+
+
+# unpacking 
