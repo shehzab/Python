@@ -1,19 +1,17 @@
-def myFunction():
-  print("function")
 
-myFunction()
+# block of reusable code
 
-a = 10
-def calculate():
-  if a < 14:
-    print("he got this")
-  else:
-    print("buhuhahahaha")
 
-calculate()
+def hpybdy(name):
+  print("Happy birthday", name)
+  print("you are old ")
 
-def greeting():
-  return "Hello mister pereira"
 
-message = greeting()
-print(message)
+hpybdy("broo")
+
+
+def display_invoice(username, amount, duedate):
+  print(f"Hello{username}")
+  print(f"your bill ${amount:.2f} is due : {duedate}")
+
+display_invoice("Ameer", 2000 , "01/01")
