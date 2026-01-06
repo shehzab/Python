@@ -3,3 +3,8 @@
 
 # 1. Encapsulation 2. Inheritance 3. Polymorphism 4. Abstraction
 
+class Student:
+  def classroom(self,name,age):
+    print(name, age)
+
+s1 = Student()
