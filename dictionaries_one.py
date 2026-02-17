@@ -204,3 +204,27 @@ del_dic = {
 del_dic.popitem()
 
 print(del_dic)
+
+
+
+dict = {
+  "table" :["a piece of furniture","list of facts & figures "],
+  "cat":"a small animal"
+}
+print(dict)
+
+subs = [
+  "python",
+  "java",
+  "C++",
+  "python",
+  "javascript",
+  "java",
+  "python",
+  "java",
+  "C++",
+  "C"
+]
+
+classrooms = len(set(subs))
+print(classrooms)

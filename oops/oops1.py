@@ -3,8 +3,11 @@
 
 # 1. Encapsulation 2. Inheritance 3. Polymorphism 4. Abstraction
 
+ # class and object 
+ # class is a blueprint fo a creating objects
+
 class Student:
-  def classroom(self,name,age):
-    print(name, age)
+  name = "Karan"
 
 s1 = Student()
+print(s1.name)
